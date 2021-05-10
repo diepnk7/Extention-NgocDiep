@@ -1,0 +1,26 @@
+{
+    "name": "Auto Add Friend Fb",
+    "version": "0.0.1",
+    "icons": { 
+		  "16": "plus_64px.png",
+          "48": "plus_64px.png",
+          "128": "plus_64px.png" },
+    "manifest_version": 2,
+    "description": "Auto Add Friend Fb code by Ngọc Diệp",
+    "homepage_url": "http://yoyaldev.github.io",
+    "background": {
+      "scripts": [
+        "background.js"
+      ],
+      "persistent": true
+    },
+    "browser_action": {
+      "default_title": "Auto Add Friend Fb" ,
+      "default_icon": "plus_64px.png"
+    },
+    "permissions": [
+      "https://*/*",
+      "http://*/*",
+      "tabs"
+    ]
+  }
