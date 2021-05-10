@@ -10,8 +10,9 @@
 
 // Don't modify code below
 (() => {
-  let timePerAction = 1500;
-  let totalFriendRequestsSent = 100;
+  if (confirm("\nAuto Add Friend Facebook code by Ngọc Diệp MO\n\nChạy luôn nhé?")) {
+  let timePerAction = prompt("Thời gian bấm nút thêm bạn(1s = 1000 ms):", "1500");
+  let totalFriendRequestsSent = prompt("Số bạn bè bạn muốn thêm:", "100");
   console.log("\x1b[36m%s\x1b[0m", "Please remember if you meet an error, just reload page, wait for 3 seconds and run the code again");
   console.log("-----------------------");
   console.log(`Friend requests remanding: ${totalFriendRequestsSent}`);
@@ -90,4 +91,5 @@
       }, 0);
     }, 0);
   }
+} 
 })();
